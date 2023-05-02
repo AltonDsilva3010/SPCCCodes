@@ -1,0 +1,19 @@
+For Lex save file as: lab1.l
+
+For Running code:
+
+lex lab1.l
+gcc lex.yy.c
+./a.out
+
+
+For Yacc save file as:
+lab1.l
+lab1.y
+
+For Running Yacc Code:
+
+yacc -d lab1.y
+lex lab1.l
+cc y.tab.c lex.yy.c
+./a.out
